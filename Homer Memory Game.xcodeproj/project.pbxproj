@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		C442458F26AE77180002055B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442458E26AE77180002055B /* AppDelegate.swift */; };
 		C442459126AE77180002055B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442459026AE77180002055B /* SceneDelegate.swift */; };
-		C442459326AE77180002055B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442459226AE77180002055B /* ViewController.swift */; };
 		C442459626AE77180002055B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C442459426AE77180002055B /* Main.storyboard */; };
 		C442459826AE771D0002055B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C442459726AE771D0002055B /* Assets.xcassets */; };
 		C442459B26AE771D0002055B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C442459926AE771D0002055B /* LaunchScreen.storyboard */; };
 		C44245A626AE771E0002055B /* Homer_Memory_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44245A526AE771E0002055B /* Homer_Memory_GameTests.swift */; };
 		C44245B126AE771E0002055B /* Homer_Memory_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44245B026AE771E0002055B /* Homer_Memory_GameUITests.swift */; };
+		C44245BF26AF0EB60002055B /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44245BE26AF0EB60002055B /* LobbyViewController.swift */; };
+		C44245C526AF106B0002055B /* GridSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44245C426AF106B0002055B /* GridSize.swift */; };
+		C44245C726AF121F0002055B /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44245C626AF121F0002055B /* CardDeck.swift */; };
+		C44245CB26AF18A30002055B /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44245CA26AF18A30002055B /* CardData.swift */; };
+		C44245CD26AF57B80002055B /* GameplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44245CC26AF57B80002055B /* GameplayViewController.swift */; };
+		C44245CF26AF5AF50002055B /* GameplayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44245CE26AF5AF50002055B /* GameplayCollectionViewCell.swift */; };
+		C44245D126AF5B5E0002055B /* GamePlayCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44245D026AF5B5E0002055B /* GamePlayCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 		C442458B26AE77180002055B /* Homer Memory Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homer Memory Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C442458E26AE77180002055B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C442459026AE77180002055B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C442459226AE77180002055B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C442459526AE77180002055B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C442459726AE771D0002055B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C442459A26AE771D0002055B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,14 @@
 		C44245AC26AE771E0002055B /* Homer Memory GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homer Memory GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44245B026AE771E0002055B /* Homer_Memory_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homer_Memory_GameUITests.swift; sourceTree = "<group>"; };
 		C44245B226AE771E0002055B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44245BE26AF0EB60002055B /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		C44245C426AF106B0002055B /* GridSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridSize.swift; sourceTree = "<group>"; };
+		C44245C626AF121F0002055B /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
+		C44245CA26AF18A30002055B /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		C44245CC26AF57B80002055B /* GameplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameplayViewController.swift; path = "Homer Memory Game/GameplayViewController.swift"; sourceTree = SOURCE_ROOT; };
+		C44245CE26AF5AF50002055B /* GameplayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayCollectionViewCell.swift; sourceTree = "<group>"; };
+		C44245D026AF5B5E0002055B /* GamePlayCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		C44245D626B10D040002055B /* Whale.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Whale.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				C442458D26AE77180002055B /* Homer Memory Game */,
+				C44245D526B10CF60002055B /* Fonts */,
 				C44245A426AE771E0002055B /* Homer Memory GameTests */,
 				C44245AF26AE771E0002055B /* Homer Memory GameUITests */,
 				C442458C26AE77180002055B /* Products */,
@@ -101,7 +115,9 @@
 			children = (
 				C442458E26AE77180002055B /* AppDelegate.swift */,
 				C442459026AE77180002055B /* SceneDelegate.swift */,
-				C442459226AE77180002055B /* ViewController.swift */,
+				C44245C326AF0FFE0002055B /* Models */,
+				C44245D226B086FA0002055B /* Views */,
+				C44245C026AF0F310002055B /* Controllers */,
 				C442459426AE77180002055B /* Main.storyboard */,
 				C442459726AE771D0002055B /* Assets.xcassets */,
 				C442459926AE771D0002055B /* LaunchScreen.storyboard */,
@@ -126,6 +142,42 @@
 				C44245B226AE771E0002055B /* Info.plist */,
 			);
 			path = "Homer Memory GameUITests";
+			sourceTree = "<group>";
+		};
+		C44245C026AF0F310002055B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C44245CC26AF57B80002055B /* GameplayViewController.swift */,
+				C44245BE26AF0EB60002055B /* LobbyViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C44245C326AF0FFE0002055B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C44245C426AF106B0002055B /* GridSize.swift */,
+				C44245C626AF121F0002055B /* CardDeck.swift */,
+				C44245CA26AF18A30002055B /* CardData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C44245D226B086FA0002055B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C44245CE26AF5AF50002055B /* GameplayCollectionViewCell.swift */,
+				C44245D026AF5B5E0002055B /* GamePlayCollectionViewFlowLayout.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C44245D526B10CF60002055B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C44245D626B10D040002055B /* Whale.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +310,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C442459326AE77180002055B /* ViewController.swift in Sources */,
+				C44245CD26AF57B80002055B /* GameplayViewController.swift in Sources */,
 				C442458F26AE77180002055B /* AppDelegate.swift in Sources */,
+				C44245C726AF121F0002055B /* CardDeck.swift in Sources */,
 				C442459126AE77180002055B /* SceneDelegate.swift in Sources */,
+				C44245CF26AF5AF50002055B /* GameplayCollectionViewCell.swift in Sources */,
+				C44245CB26AF18A30002055B /* CardData.swift in Sources */,
+				C44245C526AF106B0002055B /* GridSize.swift in Sources */,
+				C44245D126AF5B5E0002055B /* GamePlayCollectionViewFlowLayout.swift in Sources */,
+				C44245BF26AF0EB60002055B /* LobbyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
